@@ -8,8 +8,7 @@ add_message_files(
   DIRECTORY msg
   FILES
   DeltaTrajectoryWithID.msg
-  ObjectInitialization.msg
-  SteeringAngleAndAcceleration.msg)
+  ObjectInitialization.msg)
 
 generate_messages(DEPENDENCIES geometry_msgs std_msgs shape_msgs automated_driving_msgs)
 

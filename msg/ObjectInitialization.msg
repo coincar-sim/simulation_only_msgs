@@ -6,6 +6,9 @@ Header header
 # ObjectID
 uint32 object_id
 
+# Object classification
+automated_driving_msgs/ObjectClassification classification
+
 # Initial Position
 geometry_msgs/Pose initial_pose
 
