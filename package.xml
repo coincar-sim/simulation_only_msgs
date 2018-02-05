@@ -8,6 +8,7 @@
   <maintainer email="maximilian.naumann@kit.edu">Maximilian Naumann</maintainer>
 
   <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>mrt_cmake_modules</build_depend>
   <build_depend>message_generation</build_depend>
   <exec_depend>message_runtime</exec_depend>
   <test_depend>gtest</test_depend>
@@ -15,9 +16,6 @@
   <build_depend>roscpp</build_depend>
   <depend>roslib</depend>
 
-  <depend>geometry_msgs</depend>
-  <depend>shape_msgs</depend>
-  <depend>std_msgs</depend>
   <depend>automated_driving_msgs</depend>
 
   <export>
