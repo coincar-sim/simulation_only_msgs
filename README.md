@@ -7,10 +7,10 @@ ROS messages for the simulation framework, extending
 
 ## Installation
 * this package is part of the simulation framework
-* see simulation_management_ros_tool for installation and more details
+* see `simulation_initialization_ros_tool` for installation and more details
 
 ## Usage
-* use this library in your software as in `sim_sample_planning_ros_tool`
+* use these messages in your software as in `sim_sample_planning_ros_tool`
 
 ## License
 This package is distributed under the 3-Clause BSD License, see [LICENSE](LICENSE).
