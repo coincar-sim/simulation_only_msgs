@@ -1,4 +1,5 @@
-# Message for a desired motion of an object expressed by an array of desired positions
+# Message for initializing an object
+# License: BSD
 
 # Header
 Header header
@@ -6,10 +7,10 @@ Header header
 # ObjectID
 uint32 object_id
 
-# Object classification
+# Object Classification
 automated_driving_msgs/ObjectClassification classification
 
-# Object role
+# Object Role
 simulation_only_msgs/ObjectRole role
 
 # Initial Position
@@ -22,5 +23,6 @@ duration spawn_time
 simulation_only_msgs/DeltaTrajectoryWithID initial_delta_trajectory
 
 # Standard Message for the object dimensions
+#    Relative to its pose
 #    For further details: http://docs.ros.org/api/shape_msgs/html/msg/Mesh.html
 shape_msgs/Mesh hull

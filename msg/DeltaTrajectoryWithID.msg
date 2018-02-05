@@ -1,4 +1,5 @@
-# Message for a desired motion of an object expressed by an array of desired positions
+# Message for a desired motion of an object expressed by an array of desired poses
+# License: BSD
 
 # Header
 Header header
