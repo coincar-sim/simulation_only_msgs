@@ -2,15 +2,16 @@
 
 ROS messages for the simulation framework, extending
 
-* the standard messages ([github](https://github.com/ros/common_msgs)) and
-* the automated driving messages ([github](https://github.com/fzi-forschungszentrum-informatik/automated_driving_msgs)).
+* the standard messages [common_msgs](https://github.com/ros/common_msgs) and
+* the automated driving messages [automated_driving_msgs](https://github.com/fzi-forschungszentrum-informatik/automated_driving_msgs).
 
 ## Installation
-* this package is part of the simulation framework
-* see `simulation_initialization_ros_tool` for installation and more details
+* add the package and its dependencies to your workspace
+* build it
+* source it
 
 ## Usage
-* use these messages in your software as in `sim_sample_planning_ros_tool`
+* see `simulation_management_ros_tool` for usage examples
 
 ## License
 This package is distributed under the 3-Clause BSD License, see [LICENSE](LICENSE).
