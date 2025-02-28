@@ -22,7 +22,12 @@ duration spawn_time
 # Array of desired delta positions with their respective delta time, after which the position is to be reached
 simulation_only_msgs/DeltaTrajectoryWithID initial_delta_trajectory
 
-# Standard Message for the object dimensions
+# An oriented bounding box surrounding the object
 #    Relative to its pose
+automated_driving_msgs/BoundingBox bounding_box
+
+# A convex hull surrounding the object
+#    Relative to its pose
+#    Similiar to bounding_box but capable of representing more complex shapes
 #    For further details: http://docs.ros.org/api/shape_msgs/html/msg/Mesh.html
 shape_msgs/Mesh hull
